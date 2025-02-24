@@ -53,12 +53,12 @@ section#redes-sociais  img{
 }
 
 section#redes-sociais{
-    text-align: right;
+    text-align: left;
 }
 
 section#redes-sociais img:hover{
     border: 2px solid #e0dbdb3a;
     transform: translate(-3px -3px);
     box-shadow: 5px 5px 10px rgba(0,0,0,0.600);
-    transition: transform 1s;
+    transition: transform 1s border 1s box-shadow 1s;
 }
